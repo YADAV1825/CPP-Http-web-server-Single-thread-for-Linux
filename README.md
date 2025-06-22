@@ -1,11 +1,17 @@
-# c++-Http-web-server-Multi-thread-for-Linux-
-A multi thread http web server built from scratch in cpp. (PROJECT)
-# 🚀 Multi-threaded HTTP Web Server in C++
+# c++-Http-web-server-Single-thread-for-Linux-
+A single thread http web server built from scratch in cpp. (PROJECT)
+# 🚀 Single-threaded HTTP Web Server in C++
 
 > Created by **Rohit Yadav**  
 > 3rd Year | NIT Jalandhar | IT Branch
 
-This is a **multi-threaded HTTP web server** built entirely from scratch using **C++ and low-level Linux socket programming**. It handles raw HTTP requests, parses them manually, and responds with HTML or plain text — all without using any external libraries or frameworks.
+This is a **single-threaded HTTP web server** built entirely from scratch using **C++ and low-level Linux socket programming**. It handles raw HTTP requests, parses them manually, and responds with HTML or plain text — all without using any external libraries or frameworks.
+
+
+
+
+
+
 
 ---
 
@@ -85,6 +91,12 @@ testserver implements accepter, handler, and responder
    http://localhost:3000
 
    ```
+
+![image](https://github.com/user-attachments/assets/bfa8bb52-89fe-40c0-847b-46023bd1e7f1)
+
+
+![image](https://github.com/user-attachments/assets/4c233eab-bd18-4a0b-8c00-ffe2bb7e2de1)
+
 **🧠 Learning Outcomes**
 This project teaches:
    -Socket programming in C++
