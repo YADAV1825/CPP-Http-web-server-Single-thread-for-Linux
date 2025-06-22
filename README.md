@@ -44,16 +44,14 @@ sudo apt install g++
 └── README.md                    # This file
 
 
-##⚙️ How It Works
+**##⚙️ How It Works**
 The server uses:
-
 socket(), bind(), listen(), accept(), read(), and write()
-
 Each incoming browser request is handled in its own thread
-
 testserver implements accepter, handler, and responder
 
-##🚀 Running on Linux
+**##🚀 Running on Linux**
+
 1. 📁 Clone or Extract the Project
    ```bash
    git clone https://github.com/your-username/http-web-server.git
@@ -77,7 +75,7 @@ testserver implements accepter, handler, and responder
 ./server
 
 ```
-you will see
+  you will see
 ```bash
 ---waiting---
 
@@ -88,30 +86,18 @@ you will see
    http://localhost:3000
 
    ```
-🧠 Learning Outcomes
+**🧠 Learning Outcomes**
 This project teaches:
+   -Socket programming in C++
+   -How HTTP actually works (manual request parsing)
+   -Threading with std::thread
+   -Building backend infrastructure from scratch
+   -Clean OOP design and class architecture
 
-Socket programming in C++
 
-How HTTP actually works (manual request parsing)
 
-Threading with std::thread
-
-Building backend infrastructure from scratch
-
-Clean OOP design and class architecture
-
-💡 Next Goals
- Serve multiple files like /about.html, /style.css
-
- Add logging of requests
-
- Support POST requests
-
- Add a thread pool for efficiency
-
-🙌 Credits
+**🙌 Credits
 Made by Rohit Yadav
 NIT Jalandhar, India
-2025
+2025**
 
