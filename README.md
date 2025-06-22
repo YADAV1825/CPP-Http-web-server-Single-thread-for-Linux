@@ -51,14 +51,13 @@ Each incoming browser request is handled in its own thread
 testserver implements accepter, handler, and responder
 
 **##🚀 Running on Linux**
-
-1. 📁 Clone or Extract the Project
+   1. 📁 Clone or Extract the Project
    ```bash
    git clone https://github.com/your-username/http-web-server.git
    cd http-web-server
 
    ```
-2. Compile
+   2. Compile
    ```bash
    g++ -std=c++17 -pthread -o server \
     test.cpp \
@@ -70,18 +69,18 @@ testserver implements accepter, handler, and responder
     simplesocket.cpp
 
    ```
-3.Run the server
-```bash
-./server
+   3.Run the server
+   ```bash
+   ./server
 
-```
-  you will see
-```bash
----waiting---
+   ```
+   you will see
+   ```bash
+   ---waiting---
 
-```
-4. 🌐 Open in Browser
-   go to:
+   ```
+   4. 🌐 Open in Browser
+      go to:
    ```bash
    http://localhost:3000
 
