@@ -27,8 +27,7 @@ namespace HDE
         public:
             testserver();
             void launch();
-            void handle_client(int client_socket);
-
+            
 
     };
 }
