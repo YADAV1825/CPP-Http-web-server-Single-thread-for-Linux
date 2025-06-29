@@ -107,7 +107,7 @@ This project teaches:
 
 
 
-**🙌 Credits
+**
 Made by Rohit Yadav
 NIT Jalandhar, India
 2025**
