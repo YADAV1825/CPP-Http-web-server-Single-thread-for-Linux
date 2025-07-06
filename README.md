@@ -36,7 +36,7 @@ sudo apt update
 sudo apt install g++
 ```
 ##🧩 Project Structure
-
+```
 .
 ├── simplesocket.hpp / cpp       # Base socket class (create socket, test connection)
 ├── bindingsocket.hpp / cpp      # Adds bind() functionality
@@ -48,7 +48,7 @@ sudo apt install g++
 ├── main.cpp                     # Optional: used for testing socket classes
 ├── index.html                   # Optional: static HTML file to serve
 └── README.md                    # This file
-
+```
 
 **##⚙️ How It Works**
 The server uses:
