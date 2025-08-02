@@ -11,8 +11,6 @@ This is a **single-threaded HTTP web server** built entirely from scratch using 
 
 
 
-
-
 ---
 
 ## 🌟 Features
